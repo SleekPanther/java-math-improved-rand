@@ -10,12 +10,12 @@ public class MathImprovedRandom {
 	
 	public static double random(double lowerBound, double upperBound){
 		double range = upperBound - lowerBound;
-		return (Math.random() * range) + lowerBound;
+		return (Math.random()*range) + lowerBound;
 	}
 	
 	
 	public static int randInt(){
-		return (int) (Math.random() *Integer.MAX_VALUE);
+		return (int) (Math.random() * Integer.MAX_VALUE);		//use MAX_VALUE to simulate behavior of nextInt() from the defualt Random class 
 	}
 	
 	public static int randInt(int upperBound){
@@ -24,7 +24,7 @@ public class MathImprovedRandom {
 	
 	public static int randInt(int lowerBound, int upperBound){
 		int range = upperBound - lowerBound +1;
-		return (int) (Math.random() * range + lowerBound);
+		return (int) (Math.random()*range + lowerBound);
 	}
 	
 	
