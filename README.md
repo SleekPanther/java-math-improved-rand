@@ -1,4 +1,4 @@
-# Java Improved Math Random()
+# Java Random() Improved
 Improvements on the `Math.random()` method allowing you to specify:
 - An upper bound representing **range** (not just `doubles` between 0 & 1)
 - A lower bound
